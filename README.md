@@ -27,7 +27,7 @@
   <a href="https://github.com/adm-iola/iola-skills/blob/main/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
   </a>
-  <img alt="Node.js >=22.5" src="https://img.shields.io/badge/node-%3E%3D22.5-339933">
+  <img alt="Node.js 22.5+" src="https://img.shields.io/badge/node-22.5%2B-339933">
 </p>
 
 Скиллы для работы с открытыми данными Йошкар-Олы, MCP и отчетами.
