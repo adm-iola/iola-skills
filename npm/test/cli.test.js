@@ -26,6 +26,8 @@ test("list prints bundled skills", async () => {
   assert.equal(result.code, 0);
   assert.match(result.stdout, /yoshkar-ola-open-data/);
   assert.match(result.stdout, /yoshkar-ola-mcp-client/);
+  assert.match(result.stdout, /yoshkar-ola-schools/);
+  assert.match(result.stdout, /yoshkar-ola-kindergartens/);
 });
 
 test("list --json returns package metadata", async () => {
@@ -34,7 +36,7 @@ test("list --json returns package metadata", async () => {
   assert.equal(result.code, 0);
   const payload = JSON.parse(result.stdout);
   assert.equal(payload.package, "@iola_adm/iola-skills");
-  assert.ok(payload.skills.length >= 5);
+  assert.ok(payload.skills.length >= 11);
 });
 
 test("install codex copies selected skill", async () => {
