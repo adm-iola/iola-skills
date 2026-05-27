@@ -2,17 +2,23 @@
 
 ![Skills Йошкар-Олы](docs/assets/readme-header.png)
 
+<p align="center">
+  <a href="https://github.com/adm-iola/iola-skills/wiki">Документация</a>
+  ·
+  <a href="https://github.com/adm-iola/iola-skills/wiki/Быстрый-старт">Быстрый старт</a>
+  ·
+  <a href="https://github.com/adm-iola/iola-skills/wiki/Скиллы">Скиллы</a>
+  ·
+  <a href="https://github.com/adm-iola/iola-skills/wiki/MCP-и-REST-API">MCP и REST API</a>
+  ·
+  <a href="https://github.com/adm-iola/iola-skills/wiki/Релизы-и-обновления">Релизы</a>
+</p>
+
 Скиллы для работы с открытыми данными Йошкар-Олы, MCP и отчетами.
 
 Основной контур работы - MCP: агент использует публичный MCP endpoint, когда
 клиент поддерживает MCP. REST API остается запасным вариантом для сайтов и
 клиентов без MCP-инструментов.
-
-[Документация](https://github.com/adm-iola/iola-skills/wiki) ·
-[Быстрый старт](https://github.com/adm-iola/iola-skills/wiki/Быстрый-старт) ·
-[Скиллы](https://github.com/adm-iola/iola-skills/wiki/Скиллы) ·
-[MCP](https://github.com/adm-iola/iola-skills/wiki/MCP-и-REST-API) ·
-[Релизы](https://github.com/adm-iola/iola-skills/wiki/Релизы-и-обновления)
 
 ```text
 MCP: https://apiiola.yasg.ru/mcp
