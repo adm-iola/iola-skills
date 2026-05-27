@@ -1,6 +1,6 @@
 {
   "name": "@iola_adm/iola-skills",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "Скиллы для работы с открытыми данными Йошкар-Олы, MCP и отчетами.",
   "license": "MIT",
   "homepage": "https://github.com/adm-iola/iola-skills#readme",

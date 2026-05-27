@@ -14,6 +14,22 @@
   <a href="https://github.com/adm-iola/iola-skills/wiki/Релизы-и-обновления">Релизы</a>
 </p>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/@iola_adm/iola-skills">
+    <img alt="npm version" src="https://img.shields.io/npm/v/@iola_adm/iola-skills?label=npm">
+  </a>
+  <a href="https://github.com/adm-iola/iola-skills/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/adm-iola/iola-skills/actions/workflows/ci.yml/badge.svg">
+  </a>
+  <a href="https://github.com/adm-iola/iola-skills/actions/workflows/npm-publish.yml">
+    <img alt="npm publish" src="https://github.com/adm-iola/iola-skills/actions/workflows/npm-publish.yml/badge.svg">
+  </a>
+  <a href="https://github.com/adm-iola/iola-skills/blob/main/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  </a>
+  <img alt="Node.js >=22.5" src="https://img.shields.io/badge/node-%3E%3D22.5-339933">
+</p>
+
 Скиллы для работы с открытыми данными Йошкар-Олы, MCP и отчетами.
 
 Основной контур работы - MCP: агент использует публичный MCP endpoint, когда
