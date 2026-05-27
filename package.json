@@ -1,0 +1,42 @@
+{
+  "name": "@iola_adm/iola-skills",
+  "version": "0.1.0",
+  "description": "Agent skills for Yoshkar-Ola public data, MCP, site pages and reports.",
+  "license": "MIT",
+  "homepage": "https://github.com/adm-iola/iola-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adm-iola/iola-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adm-iola/iola-skills/issues"
+  },
+  "bin": {
+    "iola-skills": "npm/bin/iola-skills.js"
+  },
+  "files": [
+    "npm/bin",
+    "npm/test",
+    "skills",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node npm/bin/iola-skills.js",
+    "test": "node --check npm/bin/iola-skills.js && node --test npm/test/*.test.js"
+  },
+  "keywords": [
+    "codex",
+    "skills",
+    "mcp",
+    "open-data",
+    "yoshkar-ola"
+  ],
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
