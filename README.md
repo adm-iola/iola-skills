@@ -68,14 +68,3 @@ https://apiiola.yasg.ru/health
 https://apiiola.yasg.ru/api/v1/schools
 https://apiiola.yasg.ru/api/v1/kindergartens
 ```
-
-## Изображение
-
-Изображение для README лежит здесь:
-
-```text
-docs/assets/readme-header.png
-```
-
-Используется как шапка README и может быть переиспользовано для social preview
-репозитория.
