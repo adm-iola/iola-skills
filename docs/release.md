@@ -6,6 +6,7 @@ This package publishes skills through npm as `@iola_adm/iola-skills`.
 
 - Node.js `>=22.5.0`
 - GitHub secret `NPM_TOKEN`
+- Repository write access for maintainers, including `yasg1988`.
 
 ## Checklist
 
