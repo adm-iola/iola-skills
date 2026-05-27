@@ -1,7 +1,7 @@
 {
   "name": "@iola_adm/iola-skills",
   "version": "0.1.0",
-  "description": "Agent skills for Yoshkar-Ola public data, MCP, site pages and reports.",
+  "description": "Скиллы для работы с открытыми данными Йошкар-Олы, MCP, отчетами и страницами сайта администрации.",
   "license": "MIT",
   "homepage": "https://github.com/adm-iola/iola-skills#readme",
   "repository": {

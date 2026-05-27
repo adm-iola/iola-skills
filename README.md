@@ -1,52 +1,54 @@
 # IOLA Skills
 
-Agent skills for public data, MCP clients, administration website pages and
-reports for the urban district "Город Йошкар-Ола".
+![Skills Йошкар-Олы](docs/assets/readme-header.png)
 
-The skills are MCP-first: agents should use the public remote MCP endpoint when
-the client supports MCP, and use the REST API only as a fallback for clients
-without MCP tools.
+Скиллы для работы с открытыми данными Йошкар-Олы, MCP, отчетами и страницами
+сайта администрации.
+
+Основной контур работы - MCP: агент использует публичный MCP endpoint, когда
+клиент поддерживает MCP. REST API остается запасным вариантом для сайтов и
+клиентов без MCP-инструментов.
 
 ```text
 MCP: https://apiiola.yasg.ru/mcp
 REST fallback: https://apiiola.yasg.ru/api/v1
 ```
 
-## Install
+## Установка
 
-Install all bundled skills into Codex:
+Установить все встроенные скиллы в Codex:
 
 ```bash
 npx -y @iola_adm/iola-skills install codex
 ```
 
-Install one skill:
+Установить один скилл:
 
 ```bash
 npx -y @iola_adm/iola-skills install codex yoshkar-ola-open-data
 ```
 
-List bundled skills:
+Показать список скиллов:
 
 ```bash
 npx -y @iola_adm/iola-skills list
 ```
 
-Run diagnostics:
+Проверить доступность MCP:
 
 ```bash
 npx -y @iola_adm/iola-skills doctor
 ```
 
-## Bundled Skills
+## Состав
 
-- `yoshkar-ola-open-data` - public datasets, MCP-first answers and REST fallback.
-- `yoshkar-ola-data-quality` - diagnostics, layer stats, facets and quality findings.
-- `yoshkar-ola-admin-site` - administration website pages backed by the public API.
-- `yoshkar-ola-reports` - reports and exports based on public layers.
-- `yoshkar-ola-mcp-client` - MCP client setup and troubleshooting.
+- `yoshkar-ola-open-data` - открытые данные, ответы через MCP и REST fallback.
+- `yoshkar-ola-data-quality` - диагностика, статистика слоев, фасеты и проблемы качества.
+- `yoshkar-ola-admin-site` - страницы сайта администрации на публичном API.
+- `yoshkar-ola-reports` - отчеты и выгрузки по публичным слоям.
+- `yoshkar-ola-mcp-client` - настройка и диагностика MCP-клиентов.
 
-## Public Surfaces
+## Публичные контуры
 
 Remote MCP:
 
@@ -54,7 +56,7 @@ Remote MCP:
 https://apiiola.yasg.ru/mcp
 ```
 
-MCP diagnostics:
+Диагностика MCP:
 
 ```text
 https://apiiola.yasg.ru/mcp-diagnostics
@@ -68,14 +70,13 @@ https://apiiola.yasg.ru/api/v1/schools
 https://apiiola.yasg.ru/api/v1/kindergartens
 ```
 
-## Assets
+## Изображение
 
-The README header image should be placed at:
+Изображение для README лежит здесь:
 
 ```text
 docs/assets/readme-header.png
 ```
 
-The image supplied in the chat was not available to the filesystem as a file in
-this session, so the asset path is prepared but the binary must be added from
-the saved PNG.
+Используется как шапка README и может быть переиспользовано для social preview
+репозитория.
